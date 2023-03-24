@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hotel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="container-fluid">
+   <!-- navbar section statrs here -->
+    <section class="topNav container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <a class="navbar-brand nav-link" href=""
+          ><p class="fs-1">MIKALTO</p>
+          <p class="fs-6">HOTELS AND RESORTS</p>
+        </a>
+      
+        <div class="collapse navbar-collapse justify-content-center gap-5" id="navbarTogglerDemo03">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Our Rooms</a>
+            <a class="nav-link" href="#">Page</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#">Contact</a>
+        </div>
+        <div class="nav-item dropdown align-self-center">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              EN
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">RUS</a></li>
+            <li><a class="dropdown-item" href="#">GER</a></li>
+            <li><a class="dropdown-item" href="#">SPA</a></li>
+            </ul>
+        </div>
+        <button class="btn shopBtn">
+            <img class="" src="./resourse/navImg/shoppingBag.svg" alt="shopping bag logo not found">
+        </button>
+      </nav>
+    </section>
+    <!-- Nav Section Ends here -->
+    <!-- landingForm Section starts here -->
+    <section class="container-fluid d-flex justify-content-center .landingSection">
+
+      <div class="landingFormBackground d-flex justify-content-center">
+        <div class="landingFormChild m-auto">
+          <div class="container-fluid bg-opacity-10 w-50 d-flex flex-column gap-5">
+            <p class="fs-2 fst-italic">Enjoy your <br> dream vacation</p>
+            <p class="fs-6">Quite and endlessly beautiful hideaway</p>
+            <div class="d-flex justify-content-between">
+              <button class="landingFormButton bg-light w-50">About Us</button>
+              <button class="landingFormButton bg-light bg-opacity-10 text-light">View HomeStay &#10230</button>
+            </div>
+          </div>
+        </div>
+        <div class="landingFormChild d-flex">
+          <form class="landingForm bg-light align-self-center d-flex flex-column gap-5 p-5" action="">
+            <div class="landingFormHeading">
+              <p class="fs-2">Secarch Room</p>
+            <p class="fs-6">Get Lorem ipsum dolor sit.</p>
+            </div>
+            <div class="container-fluid d-flex gap-5">
+              <input type="Date">  
+              <input type="Date"> 
+            </div>
+            <select class="form-select" aria-label="">
+              <option selected="">Adults</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="form-select" aria-label="">
+              <option selected="">Children</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <button class="landingFormButton bg-primary text-light">Check availability</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

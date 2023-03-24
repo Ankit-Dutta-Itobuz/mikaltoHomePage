@@ -1,0 +1,21 @@
+.landingFormBackground{
+    width: 98vw;
+    height: 80vh;
+}
+.landingFormChild {
+    width: 40vw;
+}
+.landingForm {
+    width: 20vw;
+    
+}
+
+.landingFormButton {
+    border-style: none;
+    padding: 10px;
+}
+.landingSection {
+    background-image: url("./resourse/landingSec/landingPageImg.jpg");
+}
+
+
