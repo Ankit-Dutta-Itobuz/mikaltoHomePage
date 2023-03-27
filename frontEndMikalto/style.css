@@ -75,6 +75,11 @@ body {
     background-image: url(./resource/detailsSec/hotelSwipper1.jpg);
     background-size: cover;
     height: 700px;
+    width: 75%;
+}
+
+.activitySec {
+    width: 98vw;
 }
 
 .featureList {
@@ -182,4 +187,96 @@ body {
 
 .natureBgFlexBox {
     margin-top: -3%;
+}
+
+.headShot {
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+}
+
+.reviewStarLogo {
+    margin-top: -10px;
+    height: 100px;
+    width: 100px;
+}
+
+.reviewSec {
+    background-color: rgb(254, 248, 221);
+}
+
+@media screen and (max-width:500px) {
+    body {
+        overflow-x: hidden;
+    }
+    .landingSection {
+        height: 1200px;
+        
+        
+    }
+    .landingFormBackground {
+        flex-direction: column;
+        position: relative;
+        row-gap: 20px;
+    }
+    .landingFormView {
+        position: absolute;
+        width: 100%;
+        top: 100px;
+        left: 5px;
+    }
+    .landingForm {
+        position: absolute;
+        width: 100%;
+        top: 740px;
+        left: 5px;
+    }
+    .welcomeBg {
+        display: none;
+    }
+    .welcomeText {
+        width: 98vw;
+        padding-left: 30px;
+    }
+    .detailSec {
+        flex-direction: column;
+    }
+    .carouselCard {
+        width: 98vw;
+    }
+    .detailSwipperBg {
+        width: 98vw;
+    }
+    .chooseSecContainer {
+        flex-direction: column;
+    }
+    .activityFlexBox {
+        flex-direction: column;
+    }
+    
+    .cardContainer {
+        flex-direction: column;
+    }
+    .sayHelloCard {
+        height: 80%;
+        width: 80%;
+        left: 10%;
+        top:10%
+    }
+
+    .mapSec {
+        flex-direction: column;
+    }
+   .natureSec {
+    flex-direction: column;
+   }
+   .natureBgFlexBox{
+    flex-direction: column;
+   }
+   .newsLetterFlexBox {
+    flex-direction: column;
+   }
+   .reviewSec {
+    flex-direction: column;
+   }
 }

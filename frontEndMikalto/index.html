@@ -55,18 +55,18 @@
     <!-- landingForm Section starts here -->
     <section class="container-fluid d-flex justify-content-center landingSection">
 
-      <div class="landingFormBackground d-sm-flex justify-content-center">
+      <div class="landingFormBackground d-flex justify-content-center">
         <div class="landingFormChild m-auto">
-          <div class="container-fluid bg-opacity-10 w-50 d-flex flex-column gap-5">
+          <div class="container-fluid bg-opacity-10 w-50 d-flex flex-column gap-5 landingFormView">
             <p class="fs-2 fst-italic text-light">Enjoy your <br> dream vacation</p>
             <p class="fs-6 text-light">Quite and endlessly beautiful hideaway</p>
             <div class="d-flex justify-content-between">
-              <button class="landingFormButton bg-light w-50"> About Us </button>
+              <button class="landingFormButton bg-light w-sm-50"> About Us </button>
               <button class="landingFormButton bg-light bg-opacity-10 text-light"> View HomeStay &#10230 </button>
             </div>
           </div>
         </div>
-        <div class="landingFormChild d-flex w-sm-50 align-items-center">
+        <div class="landingFormChild d-flex w-50 align-items-center landingSecForm">
           <form class="landingForm bg-light align-self-center d-flex flex-column gap-5 p-5" action="">
             <div class="landingFormHeading">
               <p class="fs-2">Secarch Room</p>
@@ -96,23 +96,23 @@
     </section>
 
     <!-- welcome section starts here -->
-    <section class="container-fluid welcomeSection d-flex  mt-5 pt-5 mb-5 pb-5">
-      <div class="d-flex flex-column gap-2 align-items-center mt-5 w-50">
+    <section class="container-fluid welcomeSection d-flex gap-5 mt-5 pt-5 mb-5 pb-5">
+      <div class="d-flex flex-column gap-2 align-items-center mt-5 w-sm-50 welcomeText ps-5 ms-5">
         <p class="fs-6">WELCOME TO</p>
         <p class="fs-1">The Mikalto Luxury & <br> Comfort Home Stay</p>
         <p class="w-sm-50 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Ducimus libero porro neque sint iste inventore quis, nam aut minima necessitatibus animi <br> voluptas facilis consequatur perspiciatis ut distinctio voluptatum, sed quas!</p>
         <p class="fs-6">MELINDA AMANDA - HOTEL MANAGER</p>
       </div>
-      <div class="w-50 position-relative">
-        <div class="bbqImageContainer bg-primary "></div>
-        <div class="jaipurImageContainer bg-warning"></div>
-        <div class="jwImageContainer  bg-danger"></div>
+      <div class="w-50 position-relative ps-5 ms-5">
+        <div class="bbqImageContainer bg-primary welcomeBg"></div>
+        <div class="jaipurImageContainer bg-warning welcomeBg ps-5 ms-5"></div>
+        <div class="jwImageContainer  bg-danger welcomeBg ps-5 ms-5"></div>
       </div>
     </section>
 
     <!-- detailsSec starts here -->
-    <section class="container-fluid d-flex mt-5 pt-5">
-      <div class="w-25 bg-primary p-5">
+    <section class="container-fluid d-flex mt-5 pt-5 detailSec">
+      <div class="w-sm-25 bg-primary p-5 carouselCard">
         <p class="fs-6 text-light">ELEGANCE AND COMFORT</p>
         <p class="fs-2 text-light">Standard Room</p>
         <p class="fs-6 text-light">From: $150 / night</p>
@@ -133,27 +133,27 @@
         </div>
         <button class="detailsButton bg-primary fs-6 text-light">View Details</button>
       </div>
-      <div class="w-75 detailSwipperBg"></div>
+      <div class="w-sm-75 detailSwipperBg"></div>
     </section>
     <!-- chooseSec starts here -->
   <section class="container-fluid mt-5 pt-5">
     <p class="fs-2 chooseHeading ms-5 ps-5">Why Choose our hostel?</p>
-    <div class="d-flex justify-content-around">
-      <div class="w-25 d-flex gap-4">
+    <div class="d-flex p-5 gap-5 chooseSecContainer justify-content-around">
+      <div class="w-sm-25 d-flex gap-4">
         <img class="chooseLogo " src="./resource/chooseSec/hotelBell.svg" alt="bell logo not found">
         <div>
         <p class="fs-3">Unique Cusine</p>
         <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati enim praesentium modi ipsa non! Perferendis pariatur labore tempore itaque suscipit.</p>
         </div>
       </div>
-      <div class="w-25 d-flex gap-4">
+      <div class="w-sm-25 d-flex gap-4">
         <img class="chooseLogo " src="./resource/chooseSec/yoga.svg" alt="yoga logo not found">
         <div>
         <p class="fs-3">Yoga & Gym</p>
         <p class="fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati enim praesentium modi ipsa non! Perferendis pariatur labore tempore itaque suscipit.</p>
         </div>
       </div>
-      <div class="w-25 d-flex gap-4">
+      <div class="w-sm-25 d-flex gap-4">
         <img class="chooseLogo " src="./resource/chooseSec/bestLocation.svg" alt="location logo not found">
         <div>
         <p class="fs-3">Best Location</p>
@@ -165,8 +165,8 @@
 
   <!-- Activities Sec -->
   <section class="container-fluid activitySec mt-5 pt-5">
-    <div class="d-flex">
-      <div class="w-50 p-5 bg-primary text-light">
+    <div class="d-flex activityFlexBox">
+      <div class="w-50 p-5 bg-primary text-light ">
         <p class="fs-6">OTHER ACTIVITIES</p>
         <p class="fs-2">Give yoursel a smile - Smile & Wellness</p>
         <p class="fs-6 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deleniti ipsum accusantium consectetur tempore fugit illum placeat cumque suscipit tempora et molestias sit quo non asperiores, quisquam earum temporibus vitae iure dolores tempora!</p>
@@ -174,7 +174,7 @@
       </div>
       <div class="w-50 activityBg"></div>
     </div>
-    <div class="d-flex">
+    <div class="d-flex activityFlexBox">
       <div class="w-50 reconnectBg"></div>
       <div class="w-50 p-5 bg-primary text-light">
         <p class="fs-6">RECONNECT WITH NATURE</p>
@@ -195,29 +195,29 @@
   <section class="container-fluid mt-5 pt-5 d-flex flex-column align-content-center mb-5">
     <p class="fs-6 text-center text-primary">EXPERIENCE MATTERS</p>
     <p class="fs-2 text-center">Escape from the World and see the experience before you <br> feel it. Discover the luxury of Hotel Mikalto</p>
-    <div class="d-flex giftCard p-5 gap-5">
-      <div class="w-25">
+    <div class="d-flex giftCard p-5 gap-5 cardContainer">
+      <div class="w-sm-25">
         <div class="giftCardBg spaCard mb-3"></div>
         <p class="fs-6 text-primary">WELLNESS</p>
         <p class="fs-2">Dedicated to welness</p>
         <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente voluptatem eos at expedita corporis, fugiat fugit quo in dignissimos? Asperiores inventore harum provident recusandae mollitia maiores, nam porro eaque.</p>
         <p class="fs-6 text-primary">Dicover more &#10230</p>
       </div>
-      <div class="w-25">
+      <div class="w-sm-25">
         <div class="giftCardBg gardenCard mb-3"></div>
         <p class="fs-6 text-primary">WELLNESS</p>
         <p class="fs-2">Dedicated to welness</p>
         <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente voluptatem eos at expedita corporis, fugiat fugit quo in dignissimos? Asperiores inventore harum provident recusandae mollitia maiores, nam porro eaque.</p>
         <p class="fs-6 text-primary">Dicover more &#10230</p>
       </div>
-      <div class="w-25">
+      <div class="w-sm-25">
         <div class="giftCardBg kitCard mb-3"></div>
         <p class="fs-6 text-primary">WELLNESS</p>
         <p class="fs-2">Dedicated to welness</p>
         <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente voluptatem eos at expedita corporis, fugiat fugit quo in dignissimos? Asperiores inventore harum provident recusandae mollitia maiores, nam porro eaque.</p>
         <p class="fs-6 text-primary">Dicover more &#10230</p>
       </div>
-      <div class="w-25">
+      <div class="w-sm-25">
         <div class="giftCardBg picnicCard mb-3"></div>
         <p class="fs-6 text-primary">WELLNESS</p>
         <p class="fs-2">Dedicated to welness</p>
@@ -229,7 +229,7 @@
   </section>
 
   <!-- sayHelloSec -->
-  <section class="container-fluid sayHelloSec mt-5 mb-5">
+  <section class="container-fluid sayHelloSec mt-5">
     <div class="sayHelloBg position-relative bg-warning">
       <div class="sayHelloCard bg-light p-5 position-absolute">
         <p class="fs-2">Say hello <br> to a whole new you</p>
@@ -238,10 +238,48 @@
       </div>
     </div>
   </section>
-
+  <!-- ReviewSec -->
+  <section class="container-fluid d-flex justify-content-around gap-5 p-5 reviewSec">
+    <div>
+      <div class="d-flex gap-4">
+        <img class="headShot" src="./resource/reviewSec/headShot.jpg" alt="head shot not found">
+        <div>
+          <p class="fs-6 fw-semibold mt-2">Jordan Bell</p>
+          <p class="fs-6 fw-light">2021-01-10</p>
+        </div>
+      </div>
+      <img class="reviewStarLogo" src="./resource/reviewSec/dot_icon.svg" alt="">
+      <p class="fs-5 fw-semibold">All good</p>
+      <p class="fs-6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium minus necessitatibus, commodi eum qui quos molestias pariatur voluptatum illum sit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, voluptates.</p>
+    </div>
+    <div>
+      <div class="d-flex gap-4">
+        <img class="headShot" src="./resource/reviewSec/headShot.jpg" alt="head shot not found">
+        <div>
+          <p class="fs-6 fw-semibold mt-2">Jordan Bell</p>
+          <p class="fs-6 fw-light">2021-01-10</p>
+        </div>
+      </div>
+      <img class="reviewStarLogo" src="./resource/reviewSec/dot_icon.svg" alt="">
+      <p class="fs-5 fw-semibold">All good</p>
+      <p class="fs-6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium minus necessitatibus, commodi eum qui quos molestias pariatur voluptatum illum sit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, voluptates.</p>
+    </div>
+    <div>
+      <div class="d-flex gap-4">
+        <img class="headShot" src="./resource/reviewSec/headShot.jpg" alt="head shot not found">
+        <div>
+          <p class="fs-6 fw-semibold mt-2">Jordan Bell</p>
+          <p class="fs-6 fw-light">2021-01-10</p>
+        </div>
+      </div>
+      <img class="reviewStarLogo" src="./resource/reviewSec/dot_icon.svg" alt="">
+      <p class="fs-5 fw-semibold">All good</p>
+      <p class="fs-6 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium minus necessitatibus, commodi eum qui quos molestias pariatur voluptatum illum sit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, voluptates.</p>
+    </div>
+  </section>
   <!-- Maps Sec -->
-  <section class="container-fluid mapSec mt-5 mb-5 d-flex">
-    <div class="w-50 m-5 p-5 d-flex flex-column align-content-center gap-3">
+  <section class="container-fluid mapSec mt-5 mb-5 d-flex mapSec">
+    <div class="w-sm-50 m-5 p-5 d-flex flex-column align-content-center gap-3">
       <p class="fs-6 text-primary">GETTING HERE</p>
       <p class="fs-2 ">How to get there?</p>
       <p class="fs-6 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, aliquam perspiciatis enim officiis,<br> a necessitatibus, aspernatur inventore amet ducimus consequatur itaque alias impedit <br> distinctio placeat molestias voluptas non incidunt debitis?</p>
@@ -268,13 +306,13 @@
       </div>
       <p class="fs-6 text-primary">Dicover more &#10230</p>
     </div>
-    <div class="w-50 p-5 m-5 d-flex align-items-center">
+    <div class="w-50 p-5 m-5 d-flex align-items-center mapContainer">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.0437694976667!2d88.4292219154988!3d22.57746623848064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275a5466e0099%3A0x563fb49fb6394261!2sItobuz%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1679901804910!5m2!1sen!2sin" width="600" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </section>
 
   <!-- natureSection -->
-  <section class=" d-flex mt-5 natureBg mb-5 pb-5">
+  <section class=" d-flex mt-5 natureBg mb-5 pb-5 natureSec">
     <div class="w-75 d-flex gap-3 ms-5 natureBgFlexBox">
       <div class="w-50 bridgeBg "></div>
       <div class="w-25 ">
@@ -295,7 +333,7 @@
     <p class="fs-6 fw-light text-primary">STORIES DELIVERED STRAIGHT</p>
     <p class="fs-2  fw-light">Get News & Update to Your Inbox</p>
       <form class="w-50 d-flex flex-column align-items-center">
-        <div class="d-flex w-75">
+        <div class="d-flex w-75 newsLetterFlexBox">
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         <button type="submit" class="btn btn-primary">Submit</button>
         </div>
