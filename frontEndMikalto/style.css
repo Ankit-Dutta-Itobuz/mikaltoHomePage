@@ -242,10 +242,10 @@ body {
         flex-direction: column;
     }
     .carouselCard {
-        width: 98vw;
+        width: 100%;
     }
     .detailSwipperBg {
-        width: 98vw;
+        width: 100%;
     }
     .chooseSecContainer {
         flex-direction: column;
@@ -279,4 +279,5 @@ body {
    .reviewSec {
     flex-direction: column;
    }
+   
 }
