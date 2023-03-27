@@ -1,4 +1,10 @@
+body {
+ overflow-x: hidden;
+}
 .landingFormBackground{
+    width: 98vw;
+    background-image: url(./resource/landingSec/landingPageImg.jpg);
+    background-size: cover;
     width: 98vw;
     height: 80vh;
 }
@@ -8,7 +14,7 @@
 }
 
 .landingForm {
-    width: 20vw;
+    width: 65%;
     
 }
 
@@ -17,9 +23,163 @@
     padding: 10px;
 }
 
-.landingSection {
-    background-image: url(./resource/landingSec/landingPageImg.jpg);
+.welcomeSection {
+    width: 98vw;
     
 }
 
+.bbqImageContainer {
+    background-image: url(./resource/welcomeSec/service.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 220px;
+    height: 380px;
+    z-index: 1;
+}
 
+.jaipurImageContainer {
+    background-image: url(./resource/welcomeSec/jodhpur.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 380px;
+    height: 220px;
+    z-index: 2;
+    top: 25%;
+    left: 25%;
+}
+
+.jwImageContainer {
+    background-image: url(./resource/welcomeSec/jw.webp);
+    background-size: cover;
+    position: absolute;
+    width: 380px;
+    height: 220px;
+    z-index: 3;
+    top: 75%;
+    left: 10%;
+}
+
+.chooseLogo {
+    width: 40px;
+    height: 40px;
+}
+
+.detailsButton {
+    border-style: solid ;
+    border-color: white;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.detailSwipperBg {
+    background-image: url(./resource/detailsSec/hotelSwipper1.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.featureList {
+    list-style-type: square;
+}
+
+.bookButton {
+    border-style: solid ;
+    border-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+ .activityBg {
+    background-image: url(./resource/activitySec/hotelPool.jpg);
+    background-size: cover;
+    height: 450px;
+}
+
+.reconnectBg {
+    background-image: url(./resource/activitySec/treeHotel.jpeg);
+    background-size: cover;
+    height: 450px;
+}
+
+.giftCardBg{
+    background-size: cover;
+    height: 550px;
+}
+
+.spaCard {
+    background-image: url(./resource/gitCardSec/spaImg.jpeg);
+}
+
+.gardenCard {
+    background-image: url(./resource/gitCardSec/gardenImg.jpeg);
+}
+
+.kitCard {
+    background-image: url(./resource/gitCardSec/kitImg.jpg);
+}
+
+.picnicCard {
+    background-image: url(./resource/gitCardSec/picnicImg.jpeg);
+}
+
+.servicesButton{
+    border-style: solid ;
+    border-color: rgb(0, 110, 255);
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 15%;
+    align-self: center;
+}
+
+
+
+.sayHelloCard {
+    height: 65%;
+    width: 30%;
+    top: 17.5%;
+    left: 55%;
+}
+
+.sayHelloBg {
+    background-image: url(./resource/sayHelloSec/poolTopImg.webp);
+    background-size: cover;
+    height: 700px;
+}
+
+.transportLogo {
+    height: 40px;
+    width: 40px;
+}
+
+.bridgeBg {
+    background-image: url(./resource/natureSec/footBridge.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.jungleBg {
+    background-image: url(./resource/natureSec/homeJungle.jpg);
+    background-size: cover;
+    height: 338px;
+}
+
+.plantBg {
+    background-image: url(./resource/natureSec/tree.jpeg);
+    background-size: cover;
+    height: 338px;
+}
+
+.joinButton {
+    border: none;
+    background: rgb(0, 110, 255);;
+    width: 20%;
+    padding: 1%;
+    align-self: center;
+}
+
+.natureBg {
+    background: rgb(255, 243, 219);
+}
+
+.natureBgFlexBox {
+    margin-top: -3%;
+}
