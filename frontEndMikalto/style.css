@@ -77,10 +77,9 @@ body {
 }
 
 .detailSwipperBg {
-    background-image: url(./resource/detailsSec/hotelSwipper1.jpg);
     background-size: cover;
     height: 700px;
-    width: 75%;
+    
 }
 
 .activitySec {
@@ -222,6 +221,27 @@ body {
     font-weight: lighter;
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 @media screen and (max-width:500px) {
     body {
         overflow-x: hidden;
@@ -263,6 +283,8 @@ body {
     }
     .detailSwipperBg {
         width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .chooseSecContainer {
         flex-direction: column;
