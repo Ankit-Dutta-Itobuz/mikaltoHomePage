@@ -1,5 +1,5 @@
 const http = require("http");
-const port = 9000;
+const port = 2400;
 const path = require("path");
 const fs = require("fs");
 const pathName = path.join(__dirname + "/data.json");
