@@ -8,7 +8,7 @@ body {
 }
 .landingFormBackground{
     width: 98vw;
-    background-image: url(./resource/landingSec/landingPageImg.jpg);
+    /* background-image: url(./resource/landingSec/landingPageImg.jpg); */
     background-size: cover;
     width: 98vw;
     height: 80vh;
