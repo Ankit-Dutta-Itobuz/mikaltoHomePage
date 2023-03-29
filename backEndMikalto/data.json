@@ -1,6 +1,6 @@
 [
     {
-      "image":"/Users/it022301/Desktop/AnkitDutta/mikalto/frontEndMikalto/resource/landingSec/landingPageImg.jpg",
+      "image":"./resource/landingSec/landingPageImg.jpg",
       "landingText":"This is from backend."
     }
     

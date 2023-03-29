@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
  overflow-x: hidden;
 }
+
 .landingFormBackground{
     width: 98vw;
-    /* background-image: url(./resource/landingSec/landingPageImg.jpg); */
     background-size: cover;
     width: 98vw;
     height: 80vh;
@@ -33,6 +34,11 @@ body {
     
 }
 
+.signatureLogo {
+    width: 150px;
+    height: 100px;
+}
+
 .bbqImageContainer {
     background-image: url(./resource/welcomeSec/service.jpg);
     background-size: cover;
@@ -50,7 +56,7 @@ body {
     height: 220px;
     z-index: 2;
     top: 25%;
-    left: 25%;
+    left: 20%;
 }
 
 .jwImageContainer {
@@ -60,7 +66,7 @@ body {
     width: 380px;
     height: 220px;
     z-index: 3;
-    top: 75%;
+    top: 65%;
     left: 10%;
 }
 
@@ -224,71 +230,81 @@ body {
 .swiper {
     width: 100%;
     height: 100%;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
 @media screen and (max-width:500px) {
+
     body {
         overflow-x: hidden;
     }
+
     .landingSection {
         height: 1200px;
-        
-        
     }
+
     .landingFormBackground {
         flex-direction: column;
         position: relative;
         row-gap: 20px;
     }
+
     .landingFormView {
         position: absolute;
         width: 100%;
         top: 100px;
         left: 5px;
     }
+
     .landingForm {
         position: absolute;
         width: 100%;
         top: 740px;
         left: 5px;
     }
+
     .welcomeBg {
         display: none;
     }
+
     .welcomeText {
         width: 98vw;
         padding-left: 30px;
     }
+
     .detailSec {
         flex-direction: column;
     }
+
     .carouselCard {
         width: 100%;
     }
+     
     .detailSwipperBg {
         width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
     }
+
     .chooseSecContainer {
         flex-direction: column;
     }
+
     .activityFlexBox {
         flex-direction: column;
     }
@@ -296,6 +312,7 @@ body {
     .cardContainer {
         flex-direction: column;
     }
+
     .sayHelloCard {
         height: 80%;
         width: 80%;
@@ -306,15 +323,19 @@ body {
     .mapSec {
         flex-direction: column;
     }
+
    .natureSec {
     flex-direction: column;
    }
+
    .natureBgFlexBox{
     flex-direction: column;
    }
+
    .newsLetterFlexBox {
     flex-direction: column;
    }
+
    .reviewSec {
     flex-direction: column;
    }

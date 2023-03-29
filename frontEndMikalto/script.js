@@ -8,7 +8,7 @@ let swiper = new Swiper(".mySwiper", {
   });
 
   async function getData() {
-    res = await fetch(`http://localhost:2400`)
+    res = await fetch(`http://localhost:3400`)
          .then((res) => {
            return res.json();
          })

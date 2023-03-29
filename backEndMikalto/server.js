@@ -1,7 +1,8 @@
 const http = require("http");
-const port = 2400;
 const path = require("path");
 const fs = require("fs");
+const port = 3400;
+
 const pathName = path.join(__dirname + "/data.json");
 const data = JSON.parse(fs.readFileSync(pathName, "utf-8"));
 
