@@ -1,343 +1,336 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
- overflow-x: hidden;
+  overflow-x: hidden;
 }
 
-.landingFormBackground{
-    width: 98vw;
-    background-size: cover;
-    width: 98vw;
-    height: 80vh;
+.landingFormBackground {
+  width: 98vw;
+  background-size: cover;
+  width: 98vw;
+  height: 80vh;
 }
 
 .landingFormChild {
-    width: 40vw;
+  width: 40vw;
 }
 
 .landingForm {
-    width: 65%;
-    
+  width: 65%;
 }
 
 .landingFormButton {
-    border-style: none;
-    padding: 10px;
+  border-style: none;
+  padding: 10px;
 }
 
 .welcomeSection {
-    width: 98vw;
-    
+  width: 98vw;
 }
 
 .signatureLogo {
-    width: 150px;
-    height: 100px;
+  width: 150px;
+  height: 100px;
 }
 
 .bbqImageContainer {
-    background-image: url(./resource/welcomeSec/service.jpg);
-    background-size: cover;
-    position: absolute;
-    width: 220px;
-    height: 380px;
-    z-index: 1;
+  background-image: url(./resource/welcomeSec/service.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 220px;
+  height: 380px;
+  z-index: 1;
 }
 
 .jaipurImageContainer {
-    background-image: url(./resource/welcomeSec/jodhpur.jpg);
-    background-size: cover;
-    position: absolute;
-    width: 380px;
-    height: 220px;
-    z-index: 2;
-    top: 25%;
-    left: 20%;
+  background-image: url(./resource/welcomeSec/jodhpur.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 380px;
+  height: 220px;
+  z-index: 2;
+  top: 25%;
+  left: 20%;
 }
 
 .jwImageContainer {
-    background-image: url(./resource/welcomeSec/jw.webp);
-    background-size: cover;
-    position: absolute;
-    width: 380px;
-    height: 220px;
-    z-index: 3;
-    top: 65%;
-    left: 10%;
+  background-image: url(./resource/welcomeSec/jw.webp);
+  background-size: cover;
+  position: absolute;
+  width: 380px;
+  height: 220px;
+  z-index: 3;
+  top: 65%;
+  left: 10%;
 }
 
 .chooseLogo {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 .detailsButton {
-    border-style: solid ;
-    border-color: white;
-    padding-left: 8%;
-    padding-right: 8%;
+  border-style: solid;
+  border-color: white;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .detailSwipperBg {
-    background-size: cover;
-    height: 700px;
-    
+  background-size: cover;
+  height: 700px;
 }
 
 .activitySec {
-    width: 98vw;
+  width: 98vw;
 }
 
 .featureList {
-    list-style-type: square;
+  list-style-type: square;
 }
 
 .bookButton {
-    border-style: solid ;
-    border-color: white;
-    padding-left: 5%;
-    padding-right: 5%;
+  border-style: solid;
+  border-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
- .activityBg {
-    background-image: url(./resource/activitySec/hotelPool.jpg);
-    background-size: cover;
-    height: 450px;
+.activityBg {
+  background-image: url(./resource/activitySec/hotelPool.jpg);
+  background-size: cover;
+  height: 450px;
 }
 
 .reconnectBg {
-    background-image: url(./resource/activitySec/treeHotel.jpeg);
-    background-size: cover;
-    height: 450px;
+  background-image: url(./resource/activitySec/treeHotel.jpeg);
+  background-size: cover;
+  height: 450px;
 }
 
-.giftCardBg{
-    background-size: cover;
-    height: 550px;
+.giftCardBg {
+  background-size: cover;
+  height: 550px;
 }
 
 .spaCard {
-    background-image: url(./resource/gitCardSec/spaImg.jpeg);
+  background-image: url(./resource/gitCardSec/spaImg.jpeg);
 }
 
 .gardenCard {
-    background-image: url(./resource/gitCardSec/gardenImg.jpeg);
+  background-image: url(./resource/gitCardSec/gardenImg.jpeg);
 }
 
 .kitCard {
-    background-image: url(./resource/gitCardSec/kitImg.jpg);
+  background-image: url(./resource/gitCardSec/kitImg.jpg);
 }
 
 .picnicCard {
-    background-image: url(./resource/gitCardSec/picnicImg.jpeg);
+  background-image: url(./resource/gitCardSec/picnicImg.jpeg);
 }
 
-.servicesButton{
-    border-style: solid ;
-    border-color: rgb(0, 110, 255);
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 15%;
-    align-self: center;
+.servicesButton {
+  border-style: solid;
+  border-color: rgb(0, 110, 255);
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 15%;
+  align-self: center;
 }
-
-
 
 .sayHelloCard {
-    height: 65%;
-    width: 30%;
-    top: 17.5%;
-    left: 55%;
+  height: 65%;
+  width: 30%;
+  top: 17.5%;
+  left: 55%;
 }
 
 .sayHelloBg {
-    background-image: url(./resource/sayHelloSec/poolTopImg.webp);
-    background-size: cover;
-    height: 700px;
+  background-image: url(./resource/sayHelloSec/poolTopImg.webp);
+  background-size: cover;
+  height: 700px;
 }
 
 .transportLogo {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 .bridgeBg {
-    background-image: url(./resource/natureSec/footBridge.jpg);
-    background-size: cover;
-    height: 700px;
+  background-image: url(./resource/natureSec/footBridge.jpg);
+  background-size: cover;
+  height: 700px;
 }
 
 .jungleBg {
-    background-image: url(./resource/natureSec/homeJungle.jpg);
-    background-size: cover;
-    height: 338px;
+  background-image: url(./resource/natureSec/homeJungle.jpg);
+  background-size: cover;
+  height: 338px;
 }
 
 .plantBg {
-    background-image: url(./resource/natureSec/tree.jpeg);
-    background-size: cover;
-    height: 338px;
+  background-image: url(./resource/natureSec/tree.jpeg);
+  background-size: cover;
+  height: 338px;
 }
 
 .joinButton {
-    border: none;
-    background: rgb(0, 110, 255);;
-    width: 20%;
-    padding: 1%;
-    align-self: center;
+  border: none;
+  background: rgb(0, 110, 255);
+  width: 20%;
+  padding: 1%;
+  align-self: center;
 }
 
 .natureBg {
-    background: rgb(255, 243, 219);
+  background: rgb(255, 243, 219);
 }
 
 .natureBgFlexBox {
-    margin-top: -3%;
+  margin-top: -3%;
 }
 
 .headShot {
-    height: 90px;
-    width: 90px;
-    border-radius: 90px;
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
 }
 
 .reviewStarLogo {
-    margin-top: -10px;
-    height: 100px;
-    width: 100px;
+  margin-top: -10px;
+  height: 100px;
+  width: 100px;
 }
 
 .reviewSec {
-    background-color: rgb(254, 248, 221);
+  background-color: rgb(254, 248, 221);
 }
 
 .footerIcon {
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
 }
 
 .footerLinks {
-    color: white;
-    text-decoration: none;
-    font-weight: lighter;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
 }
 
 .swiper {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
 
-    body {
-        overflow-x: hidden;
-    }
+  .landingSection {
+    height: 1200px;
+  }
 
-    .landingSection {
-        height: 1200px;
-    }
-
-    .landingFormBackground {
-        flex-direction: column;
-        position: relative;
-        row-gap: 20px;
-    }
-
-    .landingFormView {
-        position: absolute;
-        width: 100%;
-        top: 100px;
-        left: 5px;
-    }
-
-    .landingForm {
-        position: absolute;
-        width: 100%;
-        top: 740px;
-        left: 5px;
-    }
-
-    .welcomeBg {
-        display: none;
-    }
-
-    .welcomeText {
-        width: 98vw;
-        padding-left: 30px;
-    }
-
-    .detailSec {
-        flex-direction: column;
-    }
-
-    .carouselCard {
-        width: 100%;
-    }
-     
-    .detailSwipperBg {
-        width: 100%;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-    .chooseSecContainer {
-        flex-direction: column;
-    }
-
-    .activityFlexBox {
-        flex-direction: column;
-    }
-    
-    .cardContainer {
-        flex-direction: column;
-    }
-
-    .sayHelloCard {
-        height: 80%;
-        width: 80%;
-        left: 10%;
-        top:10%
-    }
-
-    .mapSec {
-        flex-direction: column;
-    }
-
-   .natureSec {
+  .landingFormBackground {
     flex-direction: column;
-   }
+    position: relative;
+    row-gap: 20px;
+  }
 
-   .natureBgFlexBox{
-    flex-direction: column;
-   }
+  .landingFormView {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    left: 5px;
+  }
 
-   .newsLetterFlexBox {
-    flex-direction: column;
-   }
+  .landingForm {
+    position: absolute;
+    width: 100%;
+    top: 740px;
+    left: 5px;
+  }
 
-   .reviewSec {
+  .welcomeBg {
+    display: none;
+  }
+
+  .welcomeText {
+    width: 98vw;
+    padding-left: 30px;
+  }
+
+  .detailSec {
     flex-direction: column;
-   }
-   
+  }
+
+  .carouselCard {
+    width: 100%;
+  }
+
+  .detailSwipperBg {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .chooseSecContainer {
+    flex-direction: column;
+  }
+
+  .activityFlexBox {
+    flex-direction: column;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .sayHelloCard {
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+  }
+
+  .mapSec {
+    flex-direction: column;
+  }
+
+  .natureSec {
+    flex-direction: column;
+  }
+
+  .natureBgFlexBox {
+    flex-direction: column;
+  }
+
+  .newsLetterFlexBox {
+    flex-direction: column;
+  }
+
+  .reviewSec {
+    flex-direction: column;
+  }
 }

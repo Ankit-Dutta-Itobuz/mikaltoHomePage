@@ -1,7 +1,7 @@
-[
-    {
+{
+    "landingSec" : {
       "image":"./resource/landingSec/landingPageImg.jpg",
-      "landingText":"This is from backend."
+      "landingText" : "This is from backend."
     }
     
-  ]
+}
