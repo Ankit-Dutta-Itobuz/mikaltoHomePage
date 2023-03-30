@@ -10,7 +10,7 @@ let swiper = new Swiper(".mySwiper", {
 });
 
 async function getData() {
-  res = await fetch(`http://localhost:1300`)
+  res = await fetch(`http://localhost:3100`)
     .then((res) => {
       return res.json();
     })
@@ -35,6 +35,7 @@ async function getData() {
   document.getElementById("priceDataPremium").textContent =`${res.carouselSec.carousel3.text}`;
   document.getElementById("imgPremium").style.backgroundImage = `url(${res.carouselSec.carousel3.image})`;
 }
+getData();
 
 async function formHandle(event) {
   event.preventDefault();
@@ -45,13 +46,13 @@ async function formHandle(event) {
     numberOfChildren : document.getElementById("children").value
   };
   console.log(formData);
-  fetch("http://localhost:1300", {
+  fetch("http://localhost:3100", {
     method : "POST",
     headers: {
       "Content-type": "application/json; charset=UTF-8",
     },
     body: JSON.stringify(formData),
-  }).hen(() => {
+  }).then(() => {
     alert("Form submitted!");
     document.getElementById("checkIn").value = null;
     document.getElementById("checkOut").value = null;
@@ -60,4 +61,3 @@ async function formHandle(event) {
   });
 }
 
-getData();

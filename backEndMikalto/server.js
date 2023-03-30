@@ -2,7 +2,7 @@ const http = require("http");
 const path = require("path");
 const fsp = require("fs/promises");
 const fs = require("fs");
-const port = 1300;
+const port = 3100;
 
 const pathName = path.join(__dirname + "/data.json");
 const data = JSON.parse(fs.readFileSync(pathName, "utf-8"));
@@ -23,9 +23,9 @@ http
 
       let saveData = async() => {
         console.log(formdata);
-        let currentData = await fsp.writeFile("./form.json", formData);
-        formDataNew = formData + ";" + currentData;
-        await fsp.writeFile("./form.json", formDataNew);
+        let currentData = await fsp.writeFile("./form.txt", formData);
+        let formDataNew = formData + ";" + currentData;
+        await fsp.writeFile("./form.txt", formDataNew);
       }
 saveData();
     })
