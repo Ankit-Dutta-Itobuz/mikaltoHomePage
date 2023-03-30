@@ -117,24 +117,27 @@
               <p class="fs-2">Secarch Room</p>
               <p class="fs-6">Get Lorem ipsum dolor sit.</p>
             </div>
-            <div class="container-fluid d-flex gap-5">
-              <input type="Date" />
-              <input type="Date" />
+            <div class="container-fluid d-flex gap-4 justify-content-around">
+              <input type="Date" id="checkIn" />
+              <input type="Date" id="checkOut" />
             </div>
-            <select class="form-select" aria-label="">
+            <select class="form-select" aria-label="" id="adult">
               <option selected="">Adults</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
             </select>
-            <select class="form-select" aria-label="">
+            <select class="form-select" aria-label="" id="children">
               <option selected="">Children</option>
               <option value="0">0</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
             </select>
-            <button class="landingFormButton bg-primary text-light">
+            <button
+              class="landingFormButton bg-primary text-light"
+              onclick="formHandle(event)"
+            >
               Check availability
             </button>
           </form>
@@ -175,7 +178,7 @@
       </div>
     </section>
 
-    <!-- detailsSec starts here -->
+    <!-- carouselSec starts here -->
     <section class="container-fluid d-flex pt-5 mt-5 detailSec">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -186,7 +189,7 @@
               >
                 <p class="fs-6 text-light">ELEGANCE AND COMFORT</p>
                 <p class="fs-2 text-light">Standard Room</p>
-                <p class="fs-6 text-light">From: $150 / night</p>
+                <p class="fs-6 text-light" id="priceDataStandard"></p>
                 <p class="fs-6 text-light">
                   Lorem ipsum dolor sit amet consectetur adipisicin.
                 </p>
@@ -212,12 +215,10 @@
                   View Details
                 </button>
               </div>
-              <div class="col-xl-8 col-lg-8 detailSwipperBg">
-                <img
-                  src="./resource/detailsSec/hotelSwipper1.jpg"
-                  alt="hotel1 not found"
-                />
-              </div>
+              <div
+                class="col-xl-8 col-lg-8 detailSwipperBg"
+                id="imgStandard"
+              ></div>
             </div>
           </div>
           <div class="swiper-slide">
@@ -227,7 +228,7 @@
               >
                 <p class="fs-6 text-light">BUSINESS</p>
                 <p class="fs-2 text-light">Conference Room</p>
-                <p class="fs-6 text-light">From: $250 / night</p>
+                <p class="fs-6 text-light" id="priceDataConference"></p>
                 <p class="fs-6 text-light">
                   Lorem ipsum dolor sit amet consectetur adipisicin.
                 </p>
@@ -253,12 +254,10 @@
                   View Details
                 </button>
               </div>
-              <div class="col-xl-8 col-lg-8 detailSwipperBg">
-                <img
-                  src="./resource/detailsSec/hotelSwipper3.webp"
-                  alt="hotel2 not found"
-                />
-              </div>
+              <div
+                class="col-xl-8 col-lg-8 detailSwipperBg"
+                id="imgConference"
+              ></div>
             </div>
           </div>
           <div class="swiper-slide">
@@ -268,7 +267,7 @@
               >
                 <p class="fs-6 text-light">LUXURY</p>
                 <p class="fs-2 text-light">Premium Suite</p>
-                <p class="fs-6 text-light">From: $350 / night</p>
+                <p class="fs-6 text-light" id="priceDataPremium"></p>
                 <p class="fs-6 text-light">
                   Lorem ipsum dolor sit amet consectetur adipisicin.
                 </p>
@@ -294,12 +293,10 @@
                   View Details
                 </button>
               </div>
-              <div class="col-xl-8 col-lg-8 detailSwipperBg">
-                <img
-                  src="./resource/detailsSec/hotelSwipper2.jpeg"
-                  alt="hotel3 not found"
-                />
-              </div>
+              <div
+                class="col-xl-8 col-lg-8 detailSwipperBg"
+                id="imgPremium"
+              ></div>
             </div>
           </div>
         </div>
@@ -482,87 +479,87 @@
       </div>
     </section>
     <!-- ReviewSec -->
-    <section
-      class="container-fluid d-flex justify-content-around gap-5 p-5 reviewSec"
-    >
-      <div>
-        <div class="d-flex gap-4">
-          <img
-            class="headShot"
-            src="./resource/reviewSec/headShot.jpg"
-            alt="head shot not found"
-          />
-          <div>
-            <p class="fs-6 fw-semibold mt-2">Jordan Bell</p>
-            <p class="fs-6 fw-light">2021-01-10</p>
+    <section class="container-fluid">
+      <div class="d-flex justify-content-around gap-5 p-5 reviewSec">
+        <div>
+          <div class="d-flex gap-4">
+            <img
+              class="headShot"
+              src="./resource/reviewSec/headShot.jpg"
+              alt="head shot not found"
+            />
+            <div>
+              <p class="fs-6 fw-semibold mt-2">Jordan Bell</p>
+              <p class="fs-6 fw-light">2021-01-10</p>
+            </div>
           </div>
-        </div>
-        <img
-          class="reviewStarLogo"
-          src="./resource/reviewSec/dot_icon.svg"
-          alt=""
-        />
-        <p class="fs-5 fw-semibold">All good</p>
-        <p class="fs-6 fw-light">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          minus necessitatibus, commodi eum qui quos molestias pariatur
-          voluptatum illum sit? Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Dolores, voluptates.
-        </p>
-      </div>
-      <div>
-        <div class="d-flex gap-4">
           <img
-            class="headShot"
-            src="./resource/reviewSec/headShot.jpg"
-            alt="head shot not found"
+            class="reviewStarLogo"
+            src="./resource/reviewSec/dot_icon.svg"
+            alt=""
           />
-          <div>
-            <p class="fs-6 fw-semibold mt-2">Jordan Bell</p>
-            <p class="fs-6 fw-light">2021-01-10</p>
-          </div>
+          <p class="fs-5 fw-semibold">All good</p>
+          <p class="fs-6 fw-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            minus necessitatibus, commodi eum qui quos molestias pariatur
+            voluptatum illum sit? Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Dolores, voluptates.
+          </p>
         </div>
-        <img
-          class="reviewStarLogo"
-          src="./resource/reviewSec/dot_icon.svg"
-          alt=""
-        />
-        <p class="fs-5 fw-semibold">All good</p>
-        <p class="fs-6 fw-light">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          minus necessitatibus, commodi eum qui quos molestias pariatur
-          voluptatum illum sit? Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Dolores, voluptates.
-        </p>
-      </div>
-      <div>
-        <div class="d-flex gap-4">
+        <div>
+          <div class="d-flex gap-4">
+            <img
+              class="headShot"
+              src="./resource/reviewSec/headShot.jpg"
+              alt="head shot not found"
+            />
+            <div>
+              <p class="fs-6 fw-semibold mt-2">Jordan Bell</p>
+              <p class="fs-6 fw-light">2021-01-10</p>
+            </div>
+          </div>
           <img
-            class="headShot"
-            src="./resource/reviewSec/headShot.jpg"
-            alt="head shot not found"
+            class="reviewStarLogo"
+            src="./resource/reviewSec/dot_icon.svg"
+            alt=""
           />
-          <div>
-            <p class="fs-6 fw-semibold mt-2">Jordan Bell</p>
-            <p class="fs-6 fw-light">2021-01-10</p>
-          </div>
+          <p class="fs-5 fw-semibold">All good</p>
+          <p class="fs-6 fw-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            minus necessitatibus, commodi eum qui quos molestias pariatur
+            voluptatum illum sit? Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Dolores, voluptates.
+          </p>
         </div>
-        <img
-          class="reviewStarLogo"
-          src="./resource/reviewSec/dot_icon.svg"
-          alt=""
-        />
-        <p class="fs-5 fw-semibold">All good</p>
-        <p class="fs-6 fw-light">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-          minus necessitatibus, commodi eum qui quos molestias pariatur
-          voluptatum illum sit? Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Dolores, voluptates.
-        </p>
+        <div>
+          <div class="d-flex gap-4">
+            <img
+              class="headShot"
+              src="./resource/reviewSec/headShot.jpg"
+              alt="head shot not found"
+            />
+            <div>
+              <p class="fs-6 fw-semibold mt-2">Jordan Bell</p>
+              <p class="fs-6 fw-light">2021-01-10</p>
+            </div>
+          </div>
+          <img
+            class="reviewStarLogo"
+            src="./resource/reviewSec/dot_icon.svg"
+            alt=""
+          />
+          <p class="fs-5 fw-semibold">All good</p>
+          <p class="fs-6 fw-light">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+            minus necessitatibus, commodi eum qui quos molestias pariatur
+            voluptatum illum sit? Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Dolores, voluptates.
+          </p>
+        </div>
       </div>
     </section>
     <!-- Maps Sec -->
-    <section class="container-fluid mapSec mt-5 mb-5 d-flex mapSec">
+    <section class="container-fluid mapSec mt-5 d-flex mapSec">
       <div
         class="w-sm-50 m-5 p-5 d-flex flex-column align-content-center gap-3"
       >
@@ -625,7 +622,7 @@
         </div>
         <p class="fs-6 text-primary">Dicover more →</p>
       </div>
-      <div class="w-50 p-5 m-5 d-flex align-items-center mapContainer">
+      <div class="w-50 p-5 d-flex align-items-center mapContainer">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.0437694976667!2d88.4292219154988!3d22.57746623848064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275a5466e0099%3A0x563fb49fb6394261!2sItobuz%20Technologies%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1679901804910!5m2!1sen!2sin"
           width="600"
@@ -639,7 +636,7 @@
     </section>
 
     <!-- natureSection -->
-    <section class="container-fluid d-flex natureBg natureSec">
+    <section class="container-fluid d-flex natureBg">
       <div class="w-75 d-flex gap-3 ms-5 natureBgFlexBox">
         <div class="w-50 bridgeBg"></div>
         <div class="w-25">
@@ -648,11 +645,11 @@
         </div>
       </div>
       <div
-        class="w-50 d-flex flex-column justify-content-center align-items-center gap-3"
+        class="w-50 d-flex flex-column justify-content-center  align-items-center gap-3"
       >
-        <p class="text-primary fs-6 fw-light">SPA & WELLNESS</p>
-        <p class="fs-2">Side by Side with Nature</p>
-        <p class="fs-6 fw-light w-75">
+        <p class="text-primary fs-6 fw-light natureText">SPA & WELLNESS</p>
+        <p class="fs-2 natureText">Side by Side with Nature</p>
+        <p class="fs-6 fw-light w-75 natureText">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quasi
           assumenda deleniti, repellat molestiae odit fuga adipisci! A mollitia
           dolorum, optio vero ullam odit ex!
@@ -663,7 +660,7 @@
 
     <!-- newsLetterSec -->
     <section
-      class="newsLetterSec container-fluid m-5 p-5 d-flex flex-column align-items-center justify-content-center"
+      class="newsLetterSec container-fluid p-5 d-flex flex-column align-items-center justify-content-center"
     >
       <p class="fs-6 fw-light text-primary">STORIES DELIVERED STRAIGHT</p>
       <p class="fs-2 fw-light">Get News & Update to Your Inbox</p>

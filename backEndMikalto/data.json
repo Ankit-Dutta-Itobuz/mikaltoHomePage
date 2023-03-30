@@ -2,6 +2,20 @@
     "landingSec" : {
       "image":"./resource/landingSec/landingPageImg.jpg",
       "landingText" : "This is from backend."
+    },
+    "carouselSec" : {
+      "carousel1":{
+        "image" : "./resource/detailsSec/hotelSwipper1.jpg",
+        "text" : "From: $150 / night (From Backend)"
+      },
+      "carousel2":{
+        "image" : "./resource/detailsSec/hotelSwipper3.webp",
+        "text" : "From: $250 / night (From Backend)"
+      },
+      "carousel3":{
+        "image" : "./resource/detailsSec/hotelSwipper2.jpeg",
+        "text" : "From: $350 / night (From Backend)"
+      }
     }
     
 }
